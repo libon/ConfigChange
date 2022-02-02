@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.fragment.app.FragmentContainerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FF0"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/fragment_container_card"
-    android:name="ca.rmen.configchange.CardFragment"
+    android:name="ca.rmen.configchange.MainActivity$ItemContentRed"
+    android:padding="16dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:layout="@layout/fragment_card" />
+    tools:layout="@layout/item_content_red" />
